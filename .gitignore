@@ -367,3 +367,6 @@ FodyWeavers.xsd
 /src/DotNetAzure/v17/*
 /src/DotNetAzure/DotnetAzure.UI/obj/Debug/net7.0/*
 \src\DotNetAzure\DotNetAzure.UI\obj\Debug\net7.0\*
+\src\DotNetAzure\.vs\DotNetAzure\v17\*
+\src\DotNetAzure\DotNetAzure.UI\obj\*
+\src\DotNetAzure\DotNetAzure.UI\bin\*
