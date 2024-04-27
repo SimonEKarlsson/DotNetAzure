@@ -4,12 +4,12 @@ namespace AzureServices.Services.SQLDB
 {
     public abstract class SQLDBResult<T>
     {
-        public HttpStatusCode StatusCode { get; }
+        public SQLDBResultCode StatusCode { get; }
         public List<string> Messages { get; }
         public T Value { get; }
         public bool HasValue => !EqualityComparer<T>.Default.Equals(Value, default(T));
 
-        protected SQLDBResult(HttpStatusCode statusCode, List<string> messages, T value)
+        protected SQLDBResult(SQLDBResultCode statusCode, List<string> messages, T value)
         {
             StatusCode = statusCode;
             Messages = messages ?? new List<string>(); // Ensure ErrorMessages is never null
@@ -19,22 +19,23 @@ namespace AzureServices.Services.SQLDB
 
     public class SQLDBSuccessResult<T> : SQLDBResult<T>
     {
-        public SQLDBSuccessResult(List<string> successMessages, T value) : base(HttpStatusCode.OK, successMessages, value)
+        public SQLDBSuccessResult(List<string> successMessages, T value) : base(SQLDBResultCode.OK, successMessages, value)
         {
         }
     }
 
     public class SQLDBEmptySuccessResult<T> : SQLDBResult<T>
     {
-        public SQLDBEmptySuccessResult(List<string> successMessages) : base(HttpStatusCode.NoContent, successMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
+        public SQLDBEmptySuccessResult(List<string> successMessages) : base(SQLDBResultCode.NoContent, successMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
         {
         }
     }
 
     public class SQLDBErrorResult<T> : SQLDBResult<T>
     {
-        public SQLDBErrorResult(List<string> errorMessages, HttpStatusCode statusCode) : base(statusCode, errorMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
+        public SQLDBErrorResult(List<string> errorMessages, SQLDBResultCode statusCode) : base(statusCode, errorMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
         {
         }
     }
+    public enum SQLDBResultCode { OK, NoContent, Error }
 }
