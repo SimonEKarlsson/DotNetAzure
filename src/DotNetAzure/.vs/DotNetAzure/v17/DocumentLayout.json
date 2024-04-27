@@ -1,66 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\",
+  "WorkspaceRootPath": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\storageaccount\\storageaccountresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\storageaccount\\storageaccountresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\dotnetazure.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|solutionrelative:dotnetazure.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\storageaccount\\storageaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\dotnetazure.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|solutionrelative:dotnetazure.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\dotnetazure.ui\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|solutionrelative:dotnetazure.ui\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\dotnetazure.ui\\pages\\storageaccountui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|solutionrelative:dotnetazure.ui\\pages\\storageaccountui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\dotnetazure.ui\\pages\\storageaccountui.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|solutionrelative:dotnetazure.ui\\pages\\storageaccountui.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\dotnetazure.ui\\pages\\storageaccountui.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|solutionrelative:dotnetazure.ui\\pages\\storageaccountui.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\dotnetazure.ui\\dotnetazure.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56E35803-39D9-4EE2-A428-E1007EDEC397}|DotNetAzure.UI\\DotNetAzure.UI.csproj|solutionrelative:dotnetazure.ui\\dotnetazure.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\storageaccount\\storageaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\storageaccount\\storageaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\virtualmachine\\virtualmachineresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\storageaccount\\storageaccountresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\storageaccount\\storageaccountresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\storageaccount\\istorageaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\storageaccount\\istorageaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\virtualmachine\\virtualmachineresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\virtualmachine\\virtualmachineresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\sqldb\\sqldbresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\sqldb\\sqldbresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\sqldb\\sqldbresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\servicebus\\servicebusresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\servicebus\\servicebusresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\servicebus\\servicebusresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\openai\\openairesult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\openai\\openairesult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\openai\\openairesult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\monitor\\monitorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\monitor\\monitorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\monitor\\monitorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\keyvault\\keyvaultresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\keyvault\\keyvaultresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\keyvault\\keyvaultresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\aad\\aadresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\aad\\aadresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\iothub\\iothubresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\iothub\\iothubresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\iothub\\iothubresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\functionapp\\functionappresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\functionapp\\functionappresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\functionapp\\functionappresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\applicationinsights\\appinsightsresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\applicationinsights\\appinsightsresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\applicationinsights\\appinsightsresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\cosmosdb\\cosmosdbresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\cosmosdb\\cosmosdbresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\cosmosdb\\cosmosdbresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\eventhub\\eventhubresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\temp\\dotnetazure\\src\\dotnetazure\\azureservices\\services\\eventhub\\eventhubresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\services\\eventhub\\eventhubresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|e:\\visualstudio\\projects\\github\\simonekarlsson\\dotnetazure\\src\\dotnetazure\\azureservices\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027E0A46-4AEF-4E2C-B296-0FC343F8805E}|AzureServices\\AzureServices.csproj|solutionrelative:azureservices\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,24 +110,128 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "DotNetAzure.UI\\appsettings.json",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\appsettings.json",
+              "RelativeToolTip": "DotNetAzure.UI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-27T13:54:36.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Setup.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Setup.cs",
+              "RelativeDocumentMoniker": "DotNetAzure.UI\\Setup.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Setup.cs",
+              "RelativeToolTip": "DotNetAzure.UI\\Setup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:54:00.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StorageAccountService.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\StorageAccountService.cs",
-              "RelativeDocumentMoniker": "AzureServices\\Services\\StorageAccount\\StorageAccountService.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\StorageAccountService.cs",
-              "RelativeToolTip": "AzureServices\\Services\\StorageAccount\\StorageAccountService.cs",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Program.cs",
+              "RelativeDocumentMoniker": "DotNetAzure.UI\\Program.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Program.cs",
+              "RelativeToolTip": "DotNetAzure.UI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:53:51.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StorageAccountUI.razor.css",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Pages\\StorageAccountUI.razor.css",
+              "RelativeDocumentMoniker": "DotNetAzure.UI\\Pages\\StorageAccountUI.razor.css",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Pages\\StorageAccountUI.razor.css",
+              "RelativeToolTip": "DotNetAzure.UI\\Pages\\StorageAccountUI.razor.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-27T13:53:39.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StorageAccountUI.razor.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Pages\\StorageAccountUI.razor.cs",
+              "RelativeDocumentMoniker": "DotNetAzure.UI\\Pages\\StorageAccountUI.razor.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Pages\\StorageAccountUI.razor.cs",
+              "RelativeToolTip": "DotNetAzure.UI\\Pages\\StorageAccountUI.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:53:36.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StorageAccountUI.razor",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Pages\\StorageAccountUI.razor",
+              "RelativeDocumentMoniker": "DotNetAzure.UI\\Pages\\StorageAccountUI.razor",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\Pages\\StorageAccountUI.razor",
+              "RelativeToolTip": "DotNetAzure.UI\\Pages\\StorageAccountUI.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:53:34.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DotNetAzure.UI",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\DotNetAzure.UI.csproj",
+              "RelativeDocumentMoniker": "DotNetAzure.UI\\DotNetAzure.UI.csproj",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\DotNetAzure.UI.csproj",
+              "RelativeToolTip": "DotNetAzure.UI\\DotNetAzure.UI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-27T13:53:04.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStorageAccountService.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\IStorageAccountService.cs",
+              "RelativeDocumentMoniker": "AzureServices\\Services\\StorageAccount\\IStorageAccountService.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\IStorageAccountService.cs",
+              "RelativeToolTip": "AzureServices\\Services\\StorageAccount\\IStorageAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:49:23.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StorageAccountService.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\StorageAccountService.cs",
+              "RelativeDocumentMoniker": "AzureServices\\Services\\StorageAccount\\StorageAccountService.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\StorageAccountService.cs",
+              "RelativeToolTip": "AzureServices\\Services\\StorageAccount\\StorageAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T08:19:18.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "VirtualMachineResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\VirtualMachine\\VirtualMachineResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\VirtualMachine\\VirtualMachineResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\VirtualMachine\\VirtualMachineResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\VirtualMachine\\VirtualMachineResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\VirtualMachine\\VirtualMachineResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\VirtualMachine\\VirtualMachineResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -112,11 +240,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "StorageAccountResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\StorageAccountResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\StorageAccountResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\StorageAccount\\StorageAccountResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\StorageAccountResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\StorageAccount\\StorageAccountResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\StorageAccount\\StorageAccountResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -125,11 +253,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "SQLDBResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\SQLDB\\SQLDBResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\SQLDB\\SQLDBResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\SQLDB\\SQLDBResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\SQLDB\\SQLDBResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\SQLDB\\SQLDBResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\SQLDB\\SQLDBResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,11 +266,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ServiceBusResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\ServiceBus\\ServiceBusResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\ServiceBus\\ServiceBusResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\ServiceBus\\ServiceBusResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\ServiceBus\\ServiceBusResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\ServiceBus\\ServiceBusResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\ServiceBus\\ServiceBusResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "OpenAIResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\OpenAI\\OpenAIResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\OpenAI\\OpenAIResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\OpenAI\\OpenAIResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\OpenAI\\OpenAIResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\OpenAI\\OpenAIResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\OpenAI\\OpenAIResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -164,11 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "MonitorResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\Monitor\\MonitorResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\Monitor\\MonitorResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\Monitor\\MonitorResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\Monitor\\MonitorResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\Monitor\\MonitorResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\Monitor\\MonitorResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,24 +305,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "KeyVaultResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\Keyvault\\KeyVaultResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\Keyvault\\KeyVaultResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\Keyvault\\KeyVaultResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\Keyvault\\KeyVaultResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\Keyvault\\KeyVaultResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\Keyvault\\KeyVaultResult.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAQwAQAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAxwAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T08:15:32.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "IoTHubResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\IoTHub\\IoTHubResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\IoTHub\\IoTHubResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\IoTHub\\IoTHubResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\IoTHub\\IoTHubResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\IoTHub\\IoTHubResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\IoTHub\\IoTHubResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -203,11 +331,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "FunctionAppResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\FunctionApp\\FunctionAppResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\FunctionApp\\FunctionAppResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\FunctionApp\\FunctionAppResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\FunctionApp\\FunctionAppResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\FunctionApp\\FunctionAppResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\FunctionApp\\FunctionAppResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -216,11 +344,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "EventHubResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\EventHub\\EventHubResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\EventHub\\EventHubResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\EventHub\\EventHubResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\EventHub\\EventHubResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\EventHub\\EventHubResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\EventHub\\EventHubResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "CosmosDBResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\CosmosDB\\CosmosDBResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\CosmosDB\\CosmosDBResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\CosmosDB\\CosmosDBResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\CosmosDB\\CosmosDBResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\CosmosDB\\CosmosDBResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\CosmosDB\\CosmosDBResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,47 +370,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "AppInsightsResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\ApplicationInsights\\AppInsightsResult.cs",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\ApplicationInsights\\AppInsightsResult.cs",
               "RelativeDocumentMoniker": "AzureServices\\Services\\ApplicationInsights\\AppInsightsResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\ApplicationInsights\\AppInsightsResult.cs",
+              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\ApplicationInsights\\AppInsightsResult.cs",
               "RelativeToolTip": "AzureServices\\Services\\ApplicationInsights\\AppInsightsResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T08:11:16.338Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Result.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Common\\Result.cs",
-              "RelativeDocumentMoniker": "AzureServices\\Common\\Result.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Common\\Result.cs",
-              "RelativeToolTip": "AzureServices\\Common\\Result.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T07:57:18.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AADResult.cs",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\AAD\\AADResult.cs",
-              "RelativeDocumentMoniker": "AzureServices\\Services\\AAD\\AADResult.cs",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Github\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\AzureServices\\Services\\AAD\\AADResult.cs",
-              "RelativeToolTip": "AzureServices\\Services\\AAD\\AADResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:09:46.229Z",
               "EditorCaption": ""
             }
           ]

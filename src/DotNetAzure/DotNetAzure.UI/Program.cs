@@ -1,3 +1,4 @@
+using DotNetAzure.UI;
 using DotNetAzure.UI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+Setup.StorageContainerSetup(builder);
 
 var app = builder.Build();
 

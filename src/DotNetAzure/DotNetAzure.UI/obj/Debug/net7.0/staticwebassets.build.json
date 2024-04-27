@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RdEiB7yu3nN7m+dc3Fwf2jebBc04COd9xdAfypTjaTI=",
+  "Hash": "fp2GSHFmzXubHrKrXtE4Wb61j1nimrnOeA3262nO+O8=",
   "Source": "DotNetAzure.UI",
   "BasePath": "_content/DotNetAzure.UI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DotNetAzure.UI\\wwwroot",
       "Source": "DotNetAzure.UI",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DotNetAzure.UI.styles.css",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DotNetAzure.UI.styles.css",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "DotNetAzure.UI.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DotNetAzure.UI.styles.css"
+      "OriginalItemSpec": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DotNetAzure.UI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DotNetAzure.UI.bundle.scp.css",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DotNetAzure.UI.bundle.scp.css",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "DotNetAzure.UI.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DotNetAzure.UI.bundle.scp.css"
+      "OriginalItemSpec": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DotNetAzure.UI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\site.css",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\css\\site.css",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\favicon.png",
+      "Identity": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\favicon.png",
       "SourceId": "DotNetAzure.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SimonKarlsson\\source\\repos\\GitHub\\SimonEKarlsson\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
+      "ContentRoot": "E:\\VisualStudio\\Projects\\Github\\temp\\DotNetAzure\\src\\DotNetAzure\\DotNetAzure.UI\\wwwroot\\",
       "BasePath": "_content/DotNetAzure.UI",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
