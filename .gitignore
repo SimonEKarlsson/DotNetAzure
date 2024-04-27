@@ -363,5 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 #created by simon
-*.src\DotNetAzure\.vs
-*.src\DotNetAzure\.DotNetAzure.UI\obj
+/src/DotNetAzure.UI/obj/Debug/net7.0/*
+/src/DotNetAzure/v17/*
