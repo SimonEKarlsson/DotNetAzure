@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetAzure.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82c8bd94b593697245679ce3b3abbb4c5b1db0fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1f23e832a4788f155a89fd23990e67559463224")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetAzure.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNetAzure.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
