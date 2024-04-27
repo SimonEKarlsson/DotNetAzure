@@ -1,0 +1,19 @@
+﻿@page "/sa"
+@using AzureServices.Services.StorageAccount
+@inject IStorageAccountService SA
+
+<button class="btn btn-primary" @onclick="@(() => BtnCreateContainer())"> Skapa en container </button>
+<button class="btn btn-primary" @onclick="@(() => BtnDownload())"> Hämta fil </button>
+<button class="btn btn-danger" @onclick="@(() => BtnDelete())"> Delete fil </button>
+<button class="btn btn-danger" @onclick="@(() => BtnGetFiles())"> Hämta filer </button>
+
+
+<div class="sidebar">
+    <button class="btn btn-primary mt-4 ms-1 btn-upload">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z" />
+        </svg>
+        Ladda upp
+    </button>
+    <InputFile OnChange="@((InputFileChangeEventArgs e) => HandleFileUpload(e))" multiple class="file absolute overflow-hidden z-2 border" style="top: 9px; left: -129px; opacity:0; height: 38px; width: 121px; position:relative;" />
+</div>
