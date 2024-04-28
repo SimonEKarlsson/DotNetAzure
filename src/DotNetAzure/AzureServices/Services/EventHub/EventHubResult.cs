@@ -6,10 +6,10 @@ namespace AzureServices.Services.EventHub
     {
         public EventHubResultCode StatusCode { get; }
         public List<string> Messages { get; }
-        public T Value { get; }
-        public bool HasValue => !EqualityComparer<T>.Default.Equals(Value, default(T));
+        public T? Value { get; }
+        public bool HasValue => !EqualityComparer<T>.Default.Equals(Value, default);
 
-        protected EventHubResult(EventHubResultCode statusCode, List<string> messages, T value)
+        protected EventHubResult(EventHubResultCode statusCode, List<string> messages, T? value)
         {
             StatusCode = statusCode;
             Messages = messages ?? new List<string>(); // Ensure ErrorMessages is never null
@@ -26,14 +26,14 @@ namespace AzureServices.Services.EventHub
 
     public class EventHubEmptySuccessResult<T> : EventHubResult<T>
     {
-        public EventHubEmptySuccessResult(List<string> successMessages) : base(EventHubResultCode.NoContent, successMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
+        public EventHubEmptySuccessResult(List<string> successMessages) : base(EventHubResultCode.NoContent, successMessages, default)
         {
         }
     }
 
     public class EventHubErrorResult<T> : EventHubResult<T>
     {
-        public EventHubErrorResult(List<string> errorMessages, EventHubResultCode statusCode) : base(statusCode, errorMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
+        public EventHubErrorResult(List<string> errorMessages, EventHubResultCode statusCode) : base(statusCode, errorMessages, default)
         {
         }
     }

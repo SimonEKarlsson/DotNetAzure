@@ -1,5 +1,6 @@
 using DotNetAzure.UI;
 using DotNetAzure.UI.Data;
+using Microsoft.AspNetCore.Http.Connections;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 Setup.StorageContainerSetup(builder);
 Setup.CosmosDBSetup(builder);
-
+Setup.ServiceBusSetup(builder);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,4 +1,5 @@
 ﻿using AzureServices.Services.CosmosDB;
+using AzureServices.Services.ServiceBus;
 using AzureServices.Services.StorageAccount;
 using DotNetAzure.UI.Models;
 
@@ -26,6 +27,17 @@ namespace DotNetAzure.UI
             builder.Services.AddScoped<ICosmosDBService<CosmosModel>, CosmosDBService<CosmosModel>>(options =>
             {
                 return new CosmosDBService<CosmosModel>(connectionString, database, collection);
+            });
+        }
+
+        public static void ServiceBusSetup(WebApplicationBuilder builder)
+        {
+            var connectionString = builder.Configuration["ServiceBus:connectionString"] ?? throw new Exception("ServiceBus:connectionString is missing");
+            var queueName = builder.Configuration["ServiceBus:queueName"] ?? throw new Exception("ServiceBus:queueName is missing");
+
+            builder.Services.AddScoped<IServiceBusService, ServiceBusService>(options =>
+            {
+                return new ServiceBusService(connectionString, queueName);
             });
         }
     }
