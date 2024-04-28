@@ -12,12 +12,7 @@ namespace AzureServices.Services.StorageAccount
         public StorageAccountService(string connectionString, string container)
         {
             _client = new BlobServiceClient(connectionString ?? throw new ArgumentNullException(nameof(connectionString), "ConnectionString is missing"));
-
-            if (container == null)
-            {
-                throw new ArgumentNullException(nameof(container), "Container is missing");
-            }
-            _containerName = container;
+            _containerName = container ?? throw new ArgumentNullException(nameof(container), "Container is missing");
             _containerClient = _client.GetBlobContainerClient(container);
         }
 

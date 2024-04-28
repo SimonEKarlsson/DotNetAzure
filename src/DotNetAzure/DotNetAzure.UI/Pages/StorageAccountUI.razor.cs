@@ -6,8 +6,7 @@ namespace DotNetAzure.UI.Pages
     public partial class StorageAccountUI
     {
         //StorageAccountService StorageAccountService { get; set; }
-        private string containerName = "simonlab2";
-        private long maxFileSize = 500 * 1024 * 1024; // 500MB
+        private readonly long maxFileSize = 500 * 1024 * 1024; // 500MB
 
 
         private async Task BtnCreateContainer()
@@ -36,7 +35,7 @@ namespace DotNetAzure.UI.Pages
 
             foreach (var file in e.GetMultipleFiles())
             {
-                if (file != null || file.Size != 0)
+                if (file != null || file!.Size != 0)
                 {
                     await SA.UploadFile(file.Name, file.OpenReadStream(maxFileSize), true);
                     file.OpenReadStream().Close();

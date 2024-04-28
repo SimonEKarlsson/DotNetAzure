@@ -1,0 +1,8 @@
+﻿@page "/servicebus"
+@using AzureServices.Services.ServiceBus
+@inject IServiceBusService SB
+
+<h3>Service Bus</h3>
+
+<button @onclick="@(() => BtnSendMessage())">Skicka till serviceBus</button>
+<button @onclick="@(() => BtnReceiveMessage())">Hämta från ServiceBus</button>
