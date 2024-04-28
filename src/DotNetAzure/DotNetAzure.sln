@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetAzure.UI", "DotNetAzu
 		{027E0A46-4AEF-4E2C-B296-0FC343F8805E} = {027E0A46-4AEF-4E2C-B296-0FC343F8805E}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServices", "AzureServices\AzureServices.csproj", "{027E0A46-4AEF-4E2C-B296-0FC343F8805E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServices", "AzureServices\AzureServices.csproj", "{027E0A46-4AEF-4E2C-B296-0FC343F8805E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
