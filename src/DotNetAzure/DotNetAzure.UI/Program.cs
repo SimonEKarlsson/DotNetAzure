@@ -8,6 +8,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 Setup.StorageContainerSetup(builder);
+Setup.CosmosDBSetup(builder);
 
 var app = builder.Build();
 

@@ -1,0 +1,13 @@
+﻿@page "/cosmos"
+
+@using AzureServices.Services.CosmosDB;
+@using DotNetAzure.UI.Models;
+@inject ICosmosDBService<CosmosModel> _cosmosDBService;
+
+<h1>Cosmos DB</h1>
+
+<button class="btn btn-primary" @onclick="@(() => BtnCreateItem())"> Skapa en item </button>
+<button class="btn btn-primary" @onclick="@(() => BtnGetItems())"> Hämta items </button>
+<button class="btn btn-primary" @onclick="@(() => BtnGetItem())"> Delete item </button>
+<button class="btn btn-primary" @onclick="@(() => BtnUpdateItem())"> Delete item </button>
+<button class="btn btn-danger" @onclick="@(() => BtnDeleteItem())"> Delete item </button>
