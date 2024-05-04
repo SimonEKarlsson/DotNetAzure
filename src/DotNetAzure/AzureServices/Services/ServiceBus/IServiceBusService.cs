@@ -33,5 +33,13 @@
         /// the method returns a NoContent result. If an error occurs during the operation, an Error result is returned.
         /// </remarks>
         Task<ServiceBusResult<string>> ReceiveMessageAsync();
+
+        Task<ServiceBusResult<string>> ScheduleMessageAsync(string message, DateTimeOffset scheduleEnqueueTime);
+        Task<ServiceBusResult<bool>> CancelScheduledMessageAsync(long sequenceNumber);
+        Task<ServiceBusResult<string>> PeekMessageAsync();
+        Task<ServiceBusResult<bool>> CompleteMessageAsync(string lockToken);
+        Task<ServiceBusResult<bool>> AbandonMessageAsync(string lockToken);
+        Task<ServiceBusResult<bool>> DeadLetterMessageAsync(string lockToken);
+        Task<ServiceBusResult<List<string>>> ReceiveBatchMessagesAsync(int maxMessageCount, TimeSpan maxWaitTime);
     }
 }

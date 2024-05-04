@@ -73,5 +73,40 @@ namespace AzureServices.Services.ServiceBus
                 return new ServiceBusErrorResult<string>(new List<string> { ex.Message }, ServiceBusResultCode.Error);
             }
         }
+
+        public Task<ServiceBusResult<string>> ScheduleMessageAsync(string message, DateTimeOffset scheduleEnqueueTime)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceBusResult<bool>> CancelScheduledMessageAsync(long sequenceNumber)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceBusResult<string>> PeekMessageAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceBusResult<bool>> CompleteMessageAsync(string lockToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceBusResult<bool>> AbandonMessageAsync(string lockToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceBusResult<bool>> DeadLetterMessageAsync(string lockToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceBusResult<List<string>>> ReceiveBatchMessagesAsync(int maxMessageCount, TimeSpan maxWaitTime)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

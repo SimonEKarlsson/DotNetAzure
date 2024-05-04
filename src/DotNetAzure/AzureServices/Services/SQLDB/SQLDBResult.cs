@@ -8,6 +8,7 @@ namespace AzureServices.Services.SQLDB
         public List<string> Messages { get; }
         public T? Value { get; }
         public bool HasValue => !EqualityComparer<T>.Default.Equals(Value, default);
+        public string StringMessages => string.Join("\n", Messages);
 
         protected SQLDBResult(SQLDBResultCode statusCode, List<string> messages, T? value)
         {
