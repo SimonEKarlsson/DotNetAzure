@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetAzure.UI", "DotNetAzu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServices", "AzureServices\AzureServices.csproj", "{027E0A46-4AEF-4E2C-B296-0FC343F8805E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{C881441F-7B49-4458-B3B2-0507C0F0D5B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{027E0A46-4AEF-4E2C-B296-0FC343F8805E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027E0A46-4AEF-4E2C-B296-0FC343F8805E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027E0A46-4AEF-4E2C-B296-0FC343F8805E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C881441F-7B49-4458-B3B2-0507C0F0D5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C881441F-7B49-4458-B3B2-0507C0F0D5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C881441F-7B49-4458-B3B2-0507C0F0D5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C881441F-7B49-4458-B3B2-0507C0F0D5B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

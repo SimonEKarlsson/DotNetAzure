@@ -1,15 +1,14 @@
-﻿using System.Net;
-
-namespace AzureServices.Services.AAD
+﻿namespace AzureServices.Services.AAD
 {
     public abstract class AADResult<T>
     {
         public AADResultCode StatusCode { get; }
         public List<string> Messages { get; }
-        public T Value { get; }
-        public bool HasValue => !EqualityComparer<T>.Default.Equals(Value, default(T));
+        public T? Value { get; }
+        public bool HasValue => !EqualityComparer<T>.Default.Equals(Value, default);
+        public string StringMessages => string.Join("\n", Messages);
 
-        protected AADResult(AADResultCode statusCode, List<string> messages, T value)
+        protected AADResult(AADResultCode statusCode, List<string> messages, T? value)
         {
             StatusCode = statusCode;
             Messages = messages ?? new List<string>(); // Ensure ErrorMessages is never null
@@ -26,16 +25,16 @@ namespace AzureServices.Services.AAD
 
     public class AADEmptySuccessResult<T> : AADResult<T>
     {
-        public AADEmptySuccessResult(List<string> successMessages) : base(AADResultCode.NoContent, successMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
+        public AADEmptySuccessResult(List<string> successMessages) : base(AADResultCode.NoContent, successMessages, default)
         {
         }
     }
 
     public class AADErrorResult<T> : AADResult<T>
     {
-        public AADErrorResult(List<string> errorMessages, AADResultCode statusCode) : base(statusCode, errorMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
+        public AADErrorResult(List<string> errorMessages, AADResultCode statusCode) : base(statusCode, errorMessages, default)
         {
         }
     }
-    public enum AADResultCode { OK, NoContent, Error }
+    public enum AADResultCode { OK, NoContent, Error, BadRequest }
 }
