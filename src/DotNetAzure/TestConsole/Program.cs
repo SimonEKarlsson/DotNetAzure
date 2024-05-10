@@ -7,17 +7,12 @@ namespace TestConsole
         static async Task Main()
         {
             HttpClient client = new();
-            OAuth2TokenService tokenService = new(client, "", "", "", "");
+            OAuth2TokenServiceConfiguration config = new("", "","", "");
+            OAuth2TokenService tokenService = new(client, config);
             var result = await tokenService.GetTokenAsync();
             if(result.HasValue)
             {
                 Console.WriteLine($"Token: {result.Value}");
-            }
-
-            var roleResult = await tokenService.CheckRole("Token.Read");
-            if (roleResult.HasValue)
-            {
-                Console.WriteLine($"Role: {roleResult.Value}");
             }
         }
     }

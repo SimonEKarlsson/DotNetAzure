@@ -1,5 +1,4 @@
-﻿using AzureServices.Services.AAD;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace AzureServices.Services.OAuth2Token
 {
@@ -11,6 +10,7 @@ namespace AzureServices.Services.OAuth2Token
         private readonly string _clientSecret;
         private readonly string _tenantId;
         private readonly string _scope;
+
         public OAuth2TokenService(HttpClient httpClient, string? clientId, string? clientSecret, string? tenantId, string? scope)
         {
             _httpClient = httpClient;
@@ -19,6 +19,16 @@ namespace AzureServices.Services.OAuth2Token
             _clientSecret = clientSecret ?? throw new Exception($"{nameof(clientSecret)} can't be null");
             _tenantId = tenantId ?? throw new Exception($"{nameof(tenantId)} can't be null");
             _scope = scope ?? throw new Exception($"{nameof(scope)} can't be null");
+        }
+
+        public OAuth2TokenService(HttpClient httpClient, OAuth2TokenServiceConfiguration configuration)
+        {
+            _httpClient = httpClient;
+            Auth2Token = new Auth2Token();
+            _clientId = configuration.ClientId!;
+            _clientSecret = configuration.ClientSecret!;
+            _tenantId = configuration.TenantId!;
+            _scope = configuration.Scope!;
         }
 
         private bool IsTokenExpired(int expirationThresholdSeconds = 60)
@@ -184,7 +194,6 @@ namespace AzureServices.Services.OAuth2Token
                 return new OAuth2TokenErrorResult<bool>(new List<string> { "Error getting OAuth2 Token and Checking the role.", e.Message }, OAuth2TokenResultCode.Error);
             }
         }
-
     }
 
     public class Auth2Token
@@ -193,5 +202,21 @@ namespace AzureServices.Services.OAuth2Token
         public int Expires_In { get; set; } = 0;
         public int Ext_Expires_In { get; set; } = 0;
         public string Access_Token { get; set; } = string.Empty;
+    }
+
+    public class OAuth2TokenServiceConfiguration
+    {
+        public string ClientId { get; private set; } = string.Empty;
+        public string ClientSecret { get; private set; } = string.Empty;
+        public string TenantId { get; private set; } = string.Empty;
+        public string Scope { get; private set; } = string.Empty;
+
+        public OAuth2TokenServiceConfiguration(string? clientId, string? clientSecret, string? tenantId, string? scope)
+        {
+            ClientId = clientId ?? throw new ArgumentNullException(nameof(clientId));
+            ClientSecret = clientSecret ?? throw new ArgumentNullException(nameof(clientSecret));
+            TenantId = tenantId ?? throw new ArgumentNullException(nameof(tenantId));
+            Scope = scope ?? throw new ArgumentNullException(nameof(scope));
+        }
     }
 }

@@ -5,10 +5,10 @@ namespace AzureServices.Common
     {
         public HttpStatusCode StatusCode { get; }
         public List<string> Messages { get; }
-        public T Value { get; }
-        public bool HasValue => !EqualityComparer<T>.Default.Equals(Value, default(T));
+        public T? Value { get; }
+        public bool HasValue => !EqualityComparer<T>.Default.Equals(Value, default);
 
-        protected HttpResult(HttpStatusCode statusCode, List<string> messages, T value)
+        protected HttpResult(HttpStatusCode statusCode, List<string> messages, T? value)
         {
             StatusCode = statusCode;
             Messages = messages ?? new List<string>(); // Ensure ErrorMessages is never null
@@ -25,14 +25,14 @@ namespace AzureServices.Common
 
     public class HttpEmptySuccessResult<T> : HttpResult<T>
     {
-        public HttpEmptySuccessResult(List<string> successMessages) : base(HttpStatusCode.NoContent, successMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
+        public HttpEmptySuccessResult(List<string> successMessages) : base(HttpStatusCode.NoContent, successMessages, default)
         {
         }
     }
 
     public class HttpErrorResult<T> : HttpResult<T>
     {
-        public HttpErrorResult(List<string> errorMessages, HttpStatusCode statusCode) : base(statusCode, errorMessages, default(T) ?? throw new Exception($"value {typeof(T)} is null"))
+        public HttpErrorResult(List<string> errorMessages, HttpStatusCode statusCode) : base(statusCode, errorMessages, default)
         {
         }
     }
